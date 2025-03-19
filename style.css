@@ -23,7 +23,7 @@ body{
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
-
+    color: white;
 }
 
 
@@ -67,4 +67,3 @@ button:active{
 .operator:active{
     background-color: hsl(35, 100%, 75%);
 }
-
