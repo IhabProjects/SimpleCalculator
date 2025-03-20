@@ -6,6 +6,26 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
 }
+.footer{
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.page-Title{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
 
 #calculator{

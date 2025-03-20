@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <h1 class="page-Title">Ihab's Simple Calculator</h1>
     <div id ="calculator">
-        <input id="display" readonly>
+        <input id="display">
         <div id="keys">
             <button onclick="appendDisplay('+')" class='operator'>+</button>
             <button onclick="appendDisplay('7')">7</button>
@@ -28,10 +28,12 @@
             <button onclick="appendDisplay('.')">.</button>
             <button onclick="calculate()" class="operator">=</button>
             <button onclick="clearDisplay()" class='operator'>C</button>
+            <button class="operator" onclick="pop()">del</button>
         </div>
+
     </div>
 
-
+    <footer class="footer">Made By IHAB, Project 1</footer>
     <script src="index.js"></script>
 </body>
 </html>
